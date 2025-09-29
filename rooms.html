@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c1d964a6c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+   <div class="main-cont">
+
+    <nav id="navigation-bars" style="background-color: rgba(245, 220, 242, 0.76); position: fixed; width: 100%; z-index: 1;" class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="image/l-removebg-preview.png" width="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul style="font-family: 'Times New Roman', Times, serif;" class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a  class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> 
+                </li>
+                <li class="nav-item">
+                    <a style="color: black;" class="nav-link" href="#"> Rooms </a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: black;" class="nav-link" href="about.html"> About Us </a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: black;" class="nav-link" href="place.html"> Places to Eat </a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: black;" class="nav-link" href="contact.html"> Contact </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a style="color: black;" class="nav-link dropdown-toggle"  href="services.html"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
+                
+                <div id="drop-1" style="background-color: rgb(240, 224, 224); margin-top: 11px;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a id="drop" class="dropdown-item" href="rooms.html"> Book Now </a>
+                    <a id="drop" class="dropdown-item" href="place.html"> Places to Eat </a>
+                    <a id="drop" class="dropdown-item" href="contact.html"> Contact for more</a>
+                    </div>
+                    </li>
+                </ul>
+                <form style="font-family: 'Times New Roman', Times, serif;" class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
+                <button style="background-color: burlywood;" class="btn btn-outline my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+            </nav>
+
+<br><br><br><br>
+
+<div style="width: 80%; height: 30px;" class="progress">
+  <div id="explore" class="progress-bar" role="progressbar" style="width: 100%"> EXPLORE </div>
+</div>
+
+<div class="room-div-one">
+  <p class="room-para-one"> Rooms & Suites </p>
+  <p class="room-para-two">Luxurious rooms, thoughtfully designed suites, and exclusive amenities to match every traveler's wish.</p>
+</div>
+
+<div>
+
+   <form id="room-form" class="form-inline my-2 my-lg-0">
+      <input id="room-search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <div class="btn-group">
+          <button id="room-btn" type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            All Prices
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#"> Up to $199</a>
+            <a class="dropdown-item" href="#"> Up to $170</a>
+            <a class="dropdown-item" href="#"> Up to $499</a>
+          </div>
+        </div>
+      
+    </form>
+
+</div>
+
+<div>
+     <p class="room-para-two"> 8 rooms available</p>
+</div>
+
+     <div class="card-cont">
+         
+       <div class="cont">
+
+            <img src="image/c5.jpg" width="230px">
+            <h2 class="card-h2"> Superior Room </h2>
+            <p class="card-p">  $165 / night </p>
+            <button class="card-btnsss"> Book now </button>
+
+      </div>
+
+      <div class="cont">
+
+            <img src="image/c4.jpg" width="230px">
+            <h2 class="card-h2"> Deluxe Suite</h2>
+            <p class="card-p">  $220 / night </p>
+            <button class="card-btnsss"> Book now </button>
+
+      </div>
+
+      <div class="cont">
+
+            <img src="image/c6.jpg" width="230px">
+            <h2 class="card-h2"> Executive Room </h2>
+            <p class="card-p">  $190 / night </p>
+            <button class="card-btnsss"> Book now </button>
+
+      </div>
+
+      <div class="cont">
+
+            <img src="image/c9.jpg" width="230px">
+            <h2 class="card-h2"> Family Suite </h2>
+            <p class="card-p">  $299 / night </p>
+            <button class="card-btnsss"> Book now </button>
+
+      </div>
+
+      <div class="cont">
+
+            <img src="image/c10.jpg" width="230px">
+            <h2 class="card-h2"> Presidential Suite </h2>
+            <p class="card-p">  $499 / night </p>
+            <button class="card-btnsss"> Book now </button>
+
+      </div>
+
+      <div class="cont">
+
+            <img src="image/c7.jpg" width="230px">
+            <h2 class="card-h2"> Family Suite </h2>
+            <p class="card-p">  $299 / night </p>
+            <button class="card-btnsss"> Book now </button>
+
+      </div>
+
+      <div class="cont">
+
+            <img src="image/c5.jpg" width="230px">
+            <h2 class="card-h2"> Deluxe Suite</h2>
+            <p class="card-p">  $220 / night </p>
+            <button class="card-btnsss"> Book now </button>
+
+      </div>
+
+      <div class="cont">
+
+            <img src="image/c8.jpg" width="230px">
+            <h2 class="card-h2"> Presidential Suite </h2>
+            <p class="card-p">  $499 / night </p>
+            <button class="card-btnsss"> Book now </button>
+
+      </div>
+
+
+     </div>
+
+    <div class="facility-parent second-facility-parent">
+        <div class="facility">
+
+          <h1 class="h1-facility">Facilities</h1>
+
+          <p class="facility-para">
+            
+                    23+ Thousand Hotel Facilities Royalty-Free Images, Stock ...Hotel facilities are the 
+                    physical structures and essential services a hotel provides, such as swimming pools, 
+                    gyms, restaurants, conference rooms, and parking.
+                    
+                   <h6 class="icon-h6-one"> <i class="fa-solid fa-bed iconses"></i> 2 Beds </h6>  
+
+                   <h6 class="icon-h6-two"> <i class="fa-solid fa-bath iconses"></i> 2 Bath </h6>
+
+                   <h6 class="icon-h6-three"> <i class="fa-solid fa-wifi iconses"></i> Free Wifi </h6>
+
+                   <h6 class="icon-h6-four"> <i class="fa-solid fa-mug-saucer iconses"></i> Breakfast </h6>
+
+                   <h6 class="icon-h6-five"> <i class="fa-solid fa-table-cells iconses"></i> 1200 Sq fit </h6>
+          </p>
+
+        </div>
+    </div>
+<footer class="foot-two">
+               <section class="f-sec-1"> <img src="image/l.jpg" width="30px"> LUXURY
+                 <p class="para-f-sec-1">
+                  Boutique experiences, refined comfort, and timeless elegance in the heart of your destination.
+                 </p>
+              </section>
+
+               <section class="f-sec-2">
+
+             <h6> <b>Contact</b><br> <br>
+                  +1 (555) 123-4567 <br>
+                  booking@luxuryhotel.com <br>
+                  123 Avenue, City</h6>
+                
+              </section>
+
+               <section class="f-sec-3">
+
+                   <h6>
+                    <b>Follow</b> <br><br>
+                        Instagram <br>
+                        Facebook <br>
+                        Twitter
+                   </h6>
+
+               </section>
+
+               <hr>
+
+                <p class="last-para"> © 2025 Luxury Hotel. All rights reserved. </p>
+
+                <hr>
+         </footer>
+
+
+</div>    
+</body>
+</html>

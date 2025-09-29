@@ -1,0 +1,53 @@
+<nav class="its-nav">
+
+        <div class="its-h3-parent">
+             <i class="fa-solid fa-mountain-city"></i>
+        </div>
+
+        <div class="its-h3-parent-two">
+             <h3>ZYRA </h3>
+        </div>
+
+        <ul class="its-ul" >
+
+            <li class="its-li ">
+                <a class="its-a" href="#">Home</a>
+            </li>
+
+            <li class="its-li">
+                <a class="its-a" href="rooms.html">Rooms</a>
+            </li>
+
+            <li class="its-li">
+                <a class="its-a" href="about.html">About us</a>
+            </li>
+
+            <li class="its-li">
+                <a class="its-a" href="place.com">Places to eat</a>
+            </li>
+
+            <li class="its-li">
+                <a class="its-a" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    .its-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.its-li{
+    padding-left: 25px;
+    position: relative;
+    top: 8px;
+    font-size: 16px;
+}
+.its-a{
+    color: black;
+    text-decoration: none;
+}
+rgba(8,86,84,0.63)
+
+#d9d43a
