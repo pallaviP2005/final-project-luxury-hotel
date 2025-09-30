@@ -62,7 +62,7 @@
     margin-bottom: -4px;
     font-weight: bold;
     color: black;
-    text-shadow: 2px 2px 5px orange;
+    text-shadow: 2px 2px 5px rgb(0, 229, 255);
 }
 .button-child-two{
     padding: 4px;
@@ -521,7 +521,7 @@ footer{
     margin-left: -30px;
 }
 #drop:hover{
-    background-color: rgba(215, 166, 215, 0.649);
+    background-color: rgba(166, 184, 215, 0.83);
 }
 .foot-two{
     position: relative;
@@ -536,6 +536,17 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.about-cont-paragraph{
+    position: relative;
+    bottom: 380px;
+    width: 250px;
+    padding-left: 17%;
+    color: white;
+    background-color: rgb(222, 170, 135);
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .about-h1-one{
     position: relative;
@@ -553,6 +564,120 @@ footer{
 .carosal-cont{
     position: relative;
     top: 65px;
+}
+.about-cont-img{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.about-img-one{
+       width: 320px;
+       padding: 10px;
+       position: relative;
+       bottom: 200px;
+       left: 16px;
+       outline: 7px solid cadetblue;
+}
+.about-img-two{
+       outline: 10px solid rgb(254, 254, 235);
+       width: 90px;
+       position: relative;
+       bottom: 622px;
+       left: 236px;
+}
+.about-cont-text{
+    position: relative;
+    bottom: 250px;
+    width: 300px;
+    left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-h6-abt{
+    color: rgb(224, 146, 0);
+}
+.text-para-abt-one{
+    text-align: justify;
+}
+.text-para-abt-two{
+    text-align: justify;
+}
+.abt-btn{
+    border: none;
+    background-color: burlywood;
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+.anchr-abt-btn{
+    color: white;
+    text-decoration: none;
+}
+.anchr-abt-btn:hover{
+    color: black;
+    text-decoration: none;
+}
+.abt-img-scnd{
+    width: 90%;
+    padding: 10px;
+    left: 20px;
+    position: relative;
+    bottom: 230px;
+    outline: 3px solid pink;
+}
+#sofa-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sofa-img{
+    border: 1px solid black;
+    margin: 15px;
+    padding: 5px;
+}
+.card-abt-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+}
+.team-mmbr-text{
+    position: relative;
+    bottom: 160px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abt-team-h6{
+    text-align: center;
+    color: orange;
+}
+.abt-team-h3{
+    text-align: center;
+}
+.team-mmbr-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+}
+.prof-img-one{
+    margin-bottom: 20px;
+    outline: 2px solid maroon;
+    box-shadow: 10px 10px 5px 0px rgba(175,18,18,0.48);
+}
+.img-captions{
+    position: relative;
+    bottom: 10px;
+    color: maroon;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.foot-three{
+    position: absolute;
+    top:4000px;
 }
 
 
@@ -759,6 +884,90 @@ hr{
     background-color:  rgba(245, 245, 220, 0.425);
     top: 660px;
 }
+.about-cont-paragraph{
+    width: 420px;
+}
+.about-cont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+.about-h1-one{
+    left: 55px;
+    font-size: 50px;
+}
+.about-cont-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about-img-one{
+       bottom: 72px;
+       outline: 7px solid cadetblue;
+}
+.about-img-two{
+       outline: 10px solid rgb(254, 254, 235);
+       width: 90px;
+       height: 80px;
+       position: relative;
+       bottom: 238px;
+       left: -85px;
+}
+.about-cont-text{
+    position: relative;
+    bottom: 90px;
+    width: 450px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abt-img-scnd{
+    width: 95%;
+    left: 28px;
+    bottom: 40px;
+}
+#sofa-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.sofa-img{
+    border: 1px solid black;
+    margin: 15px;
+    padding: 5px;
+}
+.card-abt-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.team-mmbr-cont{
+    flex-direction: row;
+    bottom: 140px;
+}
+
+.prof-img-one{
+    outline: 3px solid maroon;
+    border: 1px solid red;
+    box-shadow: 10px 10px 5px 0px rgba(175,18,18,0.48);
+    width: 250px;  
+}
+.prof-one-margin{
+    margin-left: 10%;
+}
+.img-captions{
+    position: relative;
+    bottom: -210px;
+    right: 190px;
+}
+.foot-three{
+    top: 2400px;
+}
+
 }
 
 @media (min-width:1280px) {
@@ -771,13 +980,19 @@ hr{
 .h6andpara{
     height: 800px;
 }
+.im-card{
+    height: 450px!important;
+}
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    top: 800px;
+    top: 690px!important;
     height: 200px;
+}
+.foot-two{
+    top: 10px!important;
 }
 .f-sec-1{
     width: 340px;
@@ -817,7 +1032,14 @@ hr{
 }
 footer{
     top:760px ;
-}    
+}  
+.about-cont-paragraph{
+    width: 450px;
+}  
+.foot-three{
+    position: relative;
+    top: 0px!important; 
+}
 
 
 }
