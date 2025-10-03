@@ -95,7 +95,7 @@
 }
 .img-div-three{
    border: 5px solid white;
-   outline: 10px solid burlywood;
+   outline: 10px solid cadetblue;
    border-radius: 20px;
    position: relative;
    left: 15px;
@@ -683,7 +683,7 @@ footer{
 .g-img-sec-1{
     width: 100%;
     position: absolute;
-    top: 230px;
+    top: 280px;
     background-color: beige;
 }
 .glry-img-6{
@@ -724,7 +724,7 @@ glry-img-scnd-parent{
     border-bottom: 0px solid beige;
 }
 .g-img-2-9{
-    border-top: 0px solid beige;
+    border-top: 10px solid beige;
     border-left:10px solid beige ;
     border-right: 10px solid beige;
      width: 100%;
@@ -738,11 +738,11 @@ glry-img-scnd-parent{
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     color: white;
-    height: 400px;
+    height: 500px;
 }
 .foot-gallery{
     position: relative;
-    bottom: -3400px;
+    bottom: -3350px;
 }
 .place-btns{
     width: 300px;
@@ -754,6 +754,48 @@ glry-img-scnd-parent{
 .place-card-cont:hover{
     background-color: transparent;
     box-shadow: 10px 10px 5px 0px rgba(148, 162, 199, 0.63);
+}
+.im-form{
+    width: 340px;
+    padding: 8px;
+    padding-left: 20px;
+    margin: 10px;
+    background-color: rgba(95, 158, 160, 0.397);
+    background-color: white;
+    border-radius: 10px;
+}
+.im-form-parent{
+    padding: 20px;
+}
+
+.contact-img-one{
+    width: 320px;
+    margin: 10px;
+}
+.legend1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.username{
+    width: 280px;
+    padding: 8px;
+    border: 1px solid lightgray;
+}
+.username:focus{
+    outline: none;
+}
+.textarea1{
+    border: none;
+    border: 1px solid lightgray;
+    padding: 8px;
+    margin-top: 20px;
+}
+.contact-btn{
+    padding: 8px;
+    border: none;
+    width: 150px;
 }
 
 
@@ -1069,6 +1111,9 @@ hr{
     height: 300px;
     border-top: 10px solid beige;
     border-left: 5px solid beige;
+}
+.g-img-2-9{
+    border-top: 0px solid beige;
 }
 .g-img-1{
      width: 520px;
