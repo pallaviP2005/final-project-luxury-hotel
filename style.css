@@ -159,7 +159,7 @@
 .box-para{
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: black;
 }
 .box-para-one{
     position: absolute;
@@ -893,7 +893,7 @@ glry-img-scnd-parent{
     padding: 8px;
     font-size: 15px;
     color: peru;
-    background-color: rgba(0, 0, 0, 0.574);
+    /* background-color: rgba(0, 0, 0, 0.574); */
 }
 .im-h1-text{
     font-size: 55px;
