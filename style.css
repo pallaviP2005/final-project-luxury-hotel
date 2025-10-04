@@ -755,23 +755,26 @@ glry-img-scnd-parent{
     background-color: transparent;
     box-shadow: 10px 10px 5px 0px rgba(148, 162, 199, 0.63);
 }
+.contact-flex{
+    background-image: url(image/c8.jpg); 
+    width: 100%; 
+    height: 1140px; 
+    background-size: cover;
+}
 .im-form{
     width: 340px;
     padding: 8px;
-    padding-left: 20px;
-    margin: 10px;
+    margin: 15px;
     background-color: rgba(95, 158, 160, 0.397);
     background-color: white;
     border-radius: 10px;
+    position: absolute;
+    top: 300px;
 }
 .im-form-parent{
     padding: 20px;
 }
 
-.contact-img-one{
-    width: 320px;
-    margin: 10px;
-}
 .legend1{
     text-align: center;
     font-size: 35px;
@@ -796,7 +799,70 @@ glry-img-scnd-parent{
     padding: 8px;
     border: none;
     width: 150px;
+    border-radius: 3px;
+    background-color: peru;
+    color: white;
 }
+.contact-btn-one{
+    padding-top: 20px;
+    text-align: center;
+}
+.lets-chat-parent{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 950px;
+}
+.lets-chat{
+    width: 90%;
+    background-color: cadetblue;
+    height: 400px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 10px;
+}
+.contact-h1{
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    font-weight: bold;
+    top: 80px;
+}
+.contact-para{
+    text-align: justify;
+    padding: 5px;
+     position: relative;
+    top: 80px;
+}
+.map-parent{
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+}
+.map-child{
+    width: 90%;
+    background-color: white;
+    height: 450px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px;
+    top: 30px;
+}
+.map-h5{
+    font-weight: bold;
+}
+.map-iframe{
+    width: 308px;
+    height: 300px;
+}
+.foot-contact{
+    position: absolute;
+    top: 1840px;
+}
+
 
 
 @media (min-width:1024px) {
@@ -1148,6 +1214,78 @@ hr{
     position: relative;
     top: 1630px;
 }
+.contact-flex{
+    height: 900px;
+}
+.im-form{
+    width: 480px;
+    height: 700px;
+    border-radius: 0px;
+}
+.im-form-parent{
+    padding: 20%;
+}
+
+.contact-btn{
+    background-color: cadetblue;
+}
+
+.lets-chat-parent{
+    height: 700px;
+    position: absolute;
+    top: 315px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
+.lets-chat{
+    width: 50%;
+    height: 700px;
+    border-radius: 0px;
+}
+.contact-h1{
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    font-weight: bold;
+    top: 200px;
+}
+.contact-para{
+    width: 350px;
+    text-align: justify;
+    padding: 5px;
+     position: relative;
+    top: 200px;
+    left: 100px;
+    font-size: 18px;
+}
+.map-iframe{
+    width: 1180px;
+    height: 300px;
+}
+.map-parent{
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+}
+.map-child{
+    width: 80%;
+    background-color: white;
+    height: 450px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px;
+    top: 30px;
+    left: 150px;
+}
+.foot-contact{
+    position: absolute;
+    top: 1584px!important;
+}
 
 }
 
@@ -1261,5 +1399,17 @@ footer{
 .foot-gallery{
     position: relative;
     top: 2230px!important;
+}
+.contact-flex{
+    height: 900px;
+}
+.im-form{
+    position: absolute;
+    left: 218px;
+}
+.lets-chat{
+    width: 40%;
+    position: absolute;
+    right: 180px;
 }
 }
